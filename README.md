@@ -1,6 +1,8 @@
 # Alstec Link Manager
 Site utilizado para centralizar e conceder acesso rapido a links e aplicações utilizadas no dia a dia da empresa;
 
+## Link de acesso
+[Alstec Link Manager](https://alstecrelogioponto.github.io/link_manager.sup_alstec/)
 
 ## Usado por
 Esse projeto é usado pelas seguintes empresas:

@@ -344,6 +344,108 @@ let copiainstall_rhid_ios = () => {
 
 
 //LISTA DE LINKS PARA UTILITARIOS
+let copiainstall_anydesk = () => {
+    //O texto que será copiado
+    const texto = "https://anydesk.com/pt/downloads/thank-you?dv=win_exe";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
+let copiainstall_ultraviewer = () => {
+    //O texto que será copiado
+    const texto = "https://www.ultraviewer.net/pt/download.html";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
+let copiainstall_dlls = () => {
+    //O texto que será copiado
+    const texto = "https://download.secullum.com.br/dlls.exe";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
+let copiainstall_at_webcam = () => {
+    //O texto que será copiado
+    const texto = "https://www.secullum.com.br/at-webcam.exe";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
+let copiainstall_at_webcam2 = () => {
+    //O texto que será copiado
+    const texto = "https://secullum-my.sharepoint.com/:u:/g/personal/suporte_secullum_com_br/EQc29hbtuIBBkFnQ6xXaiE4BDCjPdLOptuim-QKher_ktA?e=HCZINX";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
+let copiainstall_at_rel = () => {
+    //O texto que será copiado
+    const texto = "https://download.secullum.com.br/at-rel.exe";
+    //Cria um elemento input (pode ser um textarea)
+    let inputTest = document.createElement("input");
+    inputTest.value = texto;
+    //Anexa o elemento ao body
+    document.body.appendChild(inputTest);
+    //seleciona todo o texto do elemento
+    inputTest.select();
+    //executa o comando copy
+    //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+    document.execCommand('copy');
+    //remove o elemento
+    document.body.removeChild(inputTest);
+};
+
 let copiainstall_sql19 = () => {
     //O texto que será copiado
     const texto = "https://www.microsoft.com/pt-br/download/details.aspx?id=101064";

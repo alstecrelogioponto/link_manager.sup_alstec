@@ -10,7 +10,7 @@ Esse projeto é usado pelas seguintes empresas:
 
 
 ## Etiquetas
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![CC BY-NC-SA 4.0]()](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 ## Stack utilizada
